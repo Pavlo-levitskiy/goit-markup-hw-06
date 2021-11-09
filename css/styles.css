@@ -187,6 +187,13 @@ img {
 
 .contacts-link {
   margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-tel {
+  display: flex;
+  align-items: center;
 }
 
 /* ------------Hero--------------- */
@@ -679,6 +686,13 @@ img {
   font-size: 18px;
   line-height: 2em;
   margin-bottom: 4px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--grey);
 }
 
 .project-wrapper {
